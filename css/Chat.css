@@ -1,0 +1,51 @@
+.Chat {
+    border: 2px solid black;
+    padding: 10px;
+    display: block;
+    position: absolute;
+}
+
+
+.Chat .submit {
+    color: red;
+}
+
+
+.Chat .sendie {
+    width: 100%;
+    height: 100px;
+
+}
+
+.Chat .sendMessageArea {
+    /*margin: 10px;*/
+    width: 400px;
+}
+
+.Chat .content {
+    margin: 10px;
+    display: block;
+
+}
+
+.Chat .chatWrap{
+
+    display: block;
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+
+
+
+}
+
+.Chat .chatArea {
+    display: block;
+    word-wrap: break-word;
+    width: 99%;
+}
+
+.Chat .sendMessageArea {
+    width: 100%;
+}
+

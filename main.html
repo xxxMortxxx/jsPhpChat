@@ -3,8 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="js\jquery-ui-1.11.4\jquery-ui.min.css">
+    <link rel="stylesheet" href="css/Chat.css">
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/Chat.js"></script>
 </head>
 <body>
+
+<div id="ChatModule" class="Chat">
+    <form class="dialog">
+        <h2>Enter your nickname</h2>
+        <input type="text" class="name">
+        <div type="submit" class="submit" tabindex="-1">Submit<P>hello</P></div>
+
+    </form>
+    <div class="content">
+    <h2>jQuery/PHP Chat</h2>
+    <div class="greeting"></div>
+    <hr>
+    <p class="nameArea"></p>
+
+    <div class="chatWrap">
+        <div class="chatArea">
+
+        </div>
+    </div>
+    <hr>
+    <form class="sendMessageArea">
+        <span>Your message: </span><span></span>
+        <textarea class="sendie" maxLength = '100'></textarea>
+    </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+    <script>
+
+
+        var chat = new Chat('ChatModule');
+        chat.init();
+
+
+
+
+    </script>
 
 </body>
 </html>
