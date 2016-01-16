@@ -1,2 +1,2 @@
 # jsPhpChat
-My first chat on javascript and PHP
+Simple chat on javascript and PHP
